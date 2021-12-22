@@ -1,0 +1,30 @@
+ion-content h3,
+h4,
+h6 {
+  padding-left: 15px;
+}
+
+h4 {
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+h6 {
+  margin-top: -0.5rem;
+  color: gray;
+}
+
+p {
+  text-overflow: unset;
+}
+
+ion-label {
+  text-align: center;
+}
+
+img {
+  height: 90px;
+  width: auto;
+  margin: auto;
+  display: block;
+}

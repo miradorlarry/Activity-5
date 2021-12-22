@@ -1,0 +1,63 @@
+<ion-header translucent>
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h4>Choose cleaning Services</h4>
+  <h6>Choose the type of cleaning service you want</h6>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card class="ion-activated" (click)="goTo('Home Cleaning')" button>
+          <ion-card-header>
+            <img src="..\..\assets\icon\home.png">
+          </ion-card-header>
+          <ion-item shape="block" color="success">
+            <ion-label>Home Cleaning</ion-label>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>  
+      <ion-col>
+        <ion-card class="ion-activated" (click)="goTo('Pool Cleaning')" button>
+          <ion-card-header>
+            <img src="..\..\assets\icon\pool.png">
+          </ion-card-header>
+          <ion-item shape="block" color="success">
+            <ion-label>Pool Cleaning</ion-label>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-card class="ion-activated" (click)="goTo('Appliance Cleaning')" button>
+          <ion-card-header>
+            <img src="..\..\assets\icon\appliance.png">
+          </ion-card-header>
+          <ion-item shape="block" color="success">
+            <ion-label>Appliance Cleaning</ion-label>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-card class="ion-activated" (click)="goTo('Office Cleaning')" button>
+          <ion-card-header>
+            <img src="..\..\assets\icon\office.png">
+          </ion-card-header>
+          <ion-item shape="block" color="success">
+            <ion-label>Office Cleaning</ion-label>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

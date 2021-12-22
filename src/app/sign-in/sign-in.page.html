@@ -1,0 +1,23 @@
+<ion-content [fullscreen]="true">
+  <br>
+  <br>
+  <h3><b>Sign in</b></h3>
+
+  <form>
+    <ion-list>
+      <ion-item>
+        <ion-label position="stacked" id="userEmail">Username</ion-label>
+        <ion-input [(ngModel)]="uname" [ngModelOptions]="{standalone: true}"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked" id="userPassword">Password</ion-label>
+        <ion-input type="password" [(ngModel)]="password" [ngModelOptions]="{standalone: true}"></ion-input>
+      </ion-item>
+    </ion-list>
+    <br />
+    <ion-button color="success" shape="block" (click)="login()">Sign In</ion-button>
+      <p>Don't have an account?<u [routerLink]="['/sign-up']">Sign up</u></p>
+  </form>
+  
+</ion-content>
+

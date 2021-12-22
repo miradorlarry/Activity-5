@@ -1,0 +1,47 @@
+  <ion-header>
+    <ion-toolbar transluscent>
+      <ion-title>Profile</ion-title>
+      <ion-buttons slot="end">
+        <ion-button color="medium" (click)="logout()"><ion-icon name="power-outline"></ion-icon></ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  
+    <ion-content>
+      <form>
+        <ion-list>
+                <ion-item>
+                  <ion-label position="stacked">Firstname</ion-label>
+                    <ion-input type="text" [(ngModel)]="fname" [ngModelOptions]="{standalone: true}"></ion-input>
+                </ion-item>
+
+                <ion-item>
+                  <ion-label position="stacked">Lastname</ion-label>
+                    <ion-input type="text" [(ngModel)]="lname" [ngModelOptions]="{standalone: true}"></ion-input>
+                </ion-item>
+          <ion-item>
+            <ion-label position="stacked">Username</ion-label>
+              <ion-input type="text" [(ngModel)]="uname" [ngModelOptions]="{standalone: true}"></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label position="stacked">Password</ion-label>
+              <ion-input type="text" [(ngModel)]="password" [ngModelOptions]="{standalone: true}"></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label position="stacked">Email</ion-label>
+              <ion-input type="text" [(ngModel)]="email" [ngModelOptions]="{standalone: true}"></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label position="stacked">Contact No.</ion-label>
+              <ion-input type="text" [(ngModel)]="contact" [ngModelOptions]="{standalone: true}"></ion-input>
+          </ion-item>
+        </ion-list>
+    
+        <br>
+        <ion-button color="success" shape="block" (click)="update()">Update</ion-button>
+    </form>
+  
+</ion-content>

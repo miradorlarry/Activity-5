@@ -1,0 +1,42 @@
+form {
+  padding-left: 27px;
+  padding-right: 30px;
+  margin: auto;
+  font-size: 18px;
+}
+
+form ion-label {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+ion-list button {
+  background-color: white;
+  font-size: 18px;
+}
+
+ion-input {
+  margin-top: 4px;
+}
+
+h1 {
+  font-weight: bold;
+  padding-right: 30px;
+  margin: 30px auto 30px;
+}
+
+p {
+  text-align: center;
+  font-size: 13px;
+  color: grey;
+}
+
+u {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  color: #3fc683;
+}

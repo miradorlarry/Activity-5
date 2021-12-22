@@ -1,0 +1,7 @@
+{
+  "name": "Act-5",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
